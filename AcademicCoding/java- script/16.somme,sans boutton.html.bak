@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+	function addition(){
+		z3.value=z1.value*1+z2.value*1;
+	}
+</script>
+</head>
+<body>
+<label>Number1</label>
+<input type="text" id="z1" ><br>
+<label>Number2</label>
+<input type="text" id="z2" onblur="addition()"><br>
+<label>resultat</label>
+<input type="text" id="z3"><br>
+<!-- onblur event attribut:fires(execute the function) the moment that the element -->
+ <!-- loses focus. -->
+</body>
+</html>

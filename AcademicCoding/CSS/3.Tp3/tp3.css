@@ -1,0 +1,7 @@
+/* style 2 lites en different couleurs */
+.l1 a,.l1 li{
+	color:red;
+}
+.l2 a,.l2 li{
+	color:brown;
+}

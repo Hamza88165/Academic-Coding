@@ -1,0 +1,28 @@
+table,th,td{
+	border:1px solid;
+	width:50%;
+}
+th{
+	text-align:right;
+	text-transform:capitalize;
+}
+td{
+	text-align:center;
+	text-transform:capitalize;
+}
+a:link{
+	color:#42d1f5;
+}
+a:visited{
+	color:#0cfa18;
+}
+a:active{
+	background-color:#e2fa0c;
+}
+a:hover{
+	color:#fa870c;
+	font-style:italic;
+}
+a{
+	text-decoration:none;
+}

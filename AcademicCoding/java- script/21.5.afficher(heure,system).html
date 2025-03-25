@@ -1,0 +1,32 @@
+<html>
+<head>
+<script>
+	var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+	var jours=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+	function afficher(){
+		d1=new Date();
+		t1.value=d1.getHours()+":"+d1.getMinutes()+":"+d1.getSeconds();
+		j1.value=jours[d1.getDay()];
+		m1.value=months[d1.getMonth()];
+		a1.value=d1.getFullYear();
+		setTimeout(afficher,1000);
+	}
+	
+</script>
+<body onload="afficher()">
+<label>Hour: </label>
+<input type="text" id="t1">
+<label>Day: </label>
+<input type="text" id="j1">
+<label>Month: </label>
+<input type="text" id="m1">
+<label>Year: </label>
+<input type="text" id="a1">
+</body>
+</html>
+<!-- start with : -->
+ <!-- afficher l'heure  -->
+<!-- mois(numerique) -->
+<!-- année -->
+<!-- mois(ecrit) -->
+<!-- jour(ecrit) -->

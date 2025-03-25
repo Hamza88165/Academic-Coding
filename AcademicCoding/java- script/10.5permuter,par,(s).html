@@ -1,0 +1,21 @@
+<!-- permuter avec setTimeout  -->
+<html>
+<head>
+<title> permuter image(s)</title>
+</head>
+<script>
+	function Permuter(){
+		v=z1.src;
+		z1.src=z2.src;
+		z2.src=v;
+		setTimeout(Permuter,3000);
+		<!-- 2em execution -->
+	}
+	<!-- 1st execution -->
+	setTimeout(Permuter,3000)
+</script>
+<body>
+<img src="7.switch,img/lion.png" id="z1" width="200px" height="200px">
+<img src="7.switch,img/lapin.png" id="z2" width="200px" height="200px"><br>
+</body>
+</html>

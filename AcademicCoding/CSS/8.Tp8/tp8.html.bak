@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>external/css</title>
+<link rel="stylesheet" href="tp8.css">
+</head>
+<body>
+<!-- th right -->
+<!-- td center -->
+<table>
+<caption> <h1> Exercice 1:</h1></caption>
+	<tr>
+		<th>titre 1</th>
+		<th>titre 2</th>
+	</tr>
+	<tr>
+		<td>cellule 1</td>
+		<td>cellule 2</td>
+	</tr>
+	<tr>
+		<td>cellule 3</td>
+		<td>cellule 4</td>
+	</tr>
+</table>
+<h1> Exercice 2:</h1>
+<a href="https://www.color-hex.com/" target="_blanc">Voici un Lien non visité</a><br>
+<a href="#" target="_blanc">Voici un Lien  visité</a><br>
+<a href="#" target="_blanc">Voici un Lien  active</a><br>
+<a href="#" target="_blanc">Un effet au survol des liens<a><br>
+</body>
+</html>

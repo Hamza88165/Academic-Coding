@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Changer zone de text(s)</title>
+</head>
+<script>
+	var t=["Ali","Mahmoud","Smail"];
+	var it=[1000,2000,4000];
+	var ic=1;
+	function changer(){
+		z1.value=t[ic];
+		v=ic;
+		ic++;
+		ic%=t.length;
+		setTimeout(changer,it[v]);
+	}
+	setTimeout(changer,it[0])
+</script>
+<body>
+<label>Nom : </label>
+<input type="text" value="Ali" id="z1">
+</body>
+</html>

@@ -1,0 +1,24 @@
+h3{
+	font-family:arial,verdana,"sans-serif";
+}
+h2{
+	font-style:italic;
+	text-decoration:underline;
+}
+.p1{
+	text-decoration:line-through;
+	font-weight:bold;
+}
+h1{
+	font-variant:small-caps;
+	text-decoration:overline;
+}
+/* .p2{ */
+	/* font-style:italic; */
+	/* font-weight:bold; */
+	/* font-size:100px; */
+	/* font-family:Arial; */
+/* } */
+.p2{
+	font:italic bold 100px arial;
+}

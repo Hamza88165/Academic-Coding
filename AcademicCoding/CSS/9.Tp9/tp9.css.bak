@@ -1,0 +1,13 @@
+.p1{
+	/* 4 property */
+	/* margin-top: 3cm; */
+	/* margin-right: 3cm; */
+	/* margin-bottom: 3cm; */
+	/* margin-left: 3cm; */
+	/* 2 property */
+	/* margin: 5cm 3cm; */
+			/* T/B L/R */
+			/* 4 shorthand */
+	margin: 5cm 3cm 10cm 2cm;		
+			/* T / R / B / L */
+}

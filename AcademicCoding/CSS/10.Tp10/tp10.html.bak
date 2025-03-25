@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>external/CSS</title>
+<link rel="stylesheet" href="tp10.css">
+</head>
+<body>
+<h1 class="t1">Titre 1</h1>
+<h1 class="t2">Titre 2</h1>
+<h1 class="t3">Titre 3</h1>
+<h1 class="t4">Titre 4</h1>
+<p>The border-radius property defines the radius of the element's corners.
+Tip: This property allows you to add rounded corners to elements! 
+This property can have from one to four values. Here are the rules:
+Four values - border-radius: <span>15px 50px 30px 5px</span>; 
+(first value applies to top-left corner, second value applies to top-right corner,
+ third value applies to bottom-right corner, and fourth value applies to 
+ bottom-left corner):</p>
+</body>
+</html>

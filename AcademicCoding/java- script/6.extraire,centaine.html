@@ -1,0 +1,28 @@
+<html>
+<head>
+<script>
+	function extraire(){
+		a=z1.value;
+		z4.value=Math.floor(a/100);
+		b=a%100;
+		z3.value=Math.floor(b/10);
+		z2.value=b%10;
+
+	}
+	
+	
+</script>
+</head>
+<body>
+ <label> Valeur 1:</label>
+ <input type="text" id="z1"><br>
+  <label> U2:</label>
+ <input type="text" id="z2"><br>
+   <label> U10:</label>
+ <input type="text" id="z3"><br>
+   <label> U100:</label>
+ <input type="text" id="z4"><br>
+ <input type="button" value="extraire" onclick="extraire()">
+ 
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+<script>
+	function compter(){
+		var txt="bonjour tout le monde";
+		var txtTab=txt.split("");
+		var c=0;
+		for(i=0;i<txtTab.length;i++){
+			if(txtTab[i]=="o") c++;
+		}
+		document.getElementById("z1").innerHTML= c+" dans la phrase";
+	}
+</script>
+</head>
+<body>
+<p>le nombre des "o"est: <span id="z1"></span></p>
+<input type="button" value="Compter" onclick="compter()"> 
+</body>
+</html>
+ 

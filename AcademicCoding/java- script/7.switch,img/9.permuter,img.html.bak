@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> Switch image</title>
+</head>
+<script>
+	function permuter(){
+		v=i1.src;
+		i1.src=i2.src;
+		i2.src=v;
+	}
+	
+</script>
+<body>
+<img src="lion.png" id="i1" width="200px" height="200px">
+<img src="lapin.png" id="i2" width="200px" height="200px"><br>
+<input type="button" value="permuter" onclick="permuter()">
+</body>
+</html>

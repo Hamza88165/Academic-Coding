@@ -1,0 +1,59 @@
+<!-- 1-créer un tableau des ville et afficher les villes dans un input sans ',' -->
+<!-- 2-ajouter une ville dans le tableau puis afficher  -->
+<!-- 3-uppercase input -->
+<!-- 4 s'il ya deja la valeur n'ajoute pas -->
+<!-- 5 suppression -->
+<html>
+<head>
+<script>
+	var t=["fes","rabat","taza"];
+	function afficher(){
+		z1.value="";
+		for(var i=0;i<t.length;i++){
+			z1.value+=t[i]+" ";
+		}
+	}
+	function ajouter(){
+		trouve=false;
+		for(var i=0;i<t.length;i++){
+			if(t[i].toLowerCase()==z2.value.toLowerCase()){
+				trouve=true;
+				break;
+			}
+		}
+		if(!trouve) t[t.length]=z2.value;
+		afficher();
+	}
+	function upper(){
+		for(var i=0;i<t.length;i++){
+			t[i]=t[i].toUpperCase();
+		}
+		afficher();
+	}
+	function Spr(){
+		for(var i=0;i<t.length;i++){
+			if(t[i].toLowerCase()==z2.value.toLowerCase()){
+				t.splice(i,1);
+			}
+		}
+		afficher();
+	}
+	<!-- function Spr(){ -->
+		<!-- indice=t.indexOf(z2.value); -->
+		<!-- if(indice!=-1) t.splice(indice,1) -->
+		<!-- afficher(); -->
+	<!-- } -->
+</script>
+</head>
+<body>
+<label>Villes: </label>
+<input type="text" id="z1" ><br>
+<label>Ville: </label>
+<input type="text" id="z2" ><br>
+<input type="button" value="Afficher" onclick="afficher()">
+<input type="button" value="Ajouter" onclick="ajouter()">
+<input type="button" value="Uppercase" onclick="upper()">
+<input type="button" value="Supprimer" onclick="Spr()">
+</form>
+</body>
+</html>

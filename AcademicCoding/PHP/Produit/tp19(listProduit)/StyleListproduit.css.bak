@@ -1,0 +1,72 @@
+/* Style for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for table headers */
+th {
+    background-color: #5DA3E9;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table data */
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for action links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Style for add icon */
+.search{
+	width:50%;
+    display: flex;
+    align-items: center;
+	margin: 10px;
+}
+.search button{
+	margin-left:5px;
+}
+/* Style for action links hover */
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Style for the "Modifier" and "Supprimer" links */
+td a {
+    margin-right: 10px;
+}
+
+/* Add some padding and center the page content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}

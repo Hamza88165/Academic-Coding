@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+	function effacer(){
+		z1.value="";
+		z2.value="";
+	}
+	function copier(){
+		z2.value=z1.value;
+	}
+	function couper(){
+		z2.value=z1.value;
+		z1.value=""
+	}
+	
+	
+</script>
+</head>
+<body>
+<label> valeur  1</label>
+<input type="text" id="z1"><br>
+<label> valeur  2</label>
+<input type="text" id="z2"><br>
+<input type="button" value="effacer" onclick="effacer()">
+<input type="button" value="copier" onclick="copier()">
+<input type="button" value="couper" onclick="couper()">
+
+</body>
+</html>

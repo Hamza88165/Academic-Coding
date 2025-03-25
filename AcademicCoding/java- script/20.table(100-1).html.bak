@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+	function afficher(){
+		document.write("<table border=1>");
+		for(var i=1;i<=10;i++){
+			document.write("<tr>");
+			for(var j=1;j<=10;j++){
+				v=j+10*(i-1);
+				document.write("<td>",v,"</td>");
+			}
+			document.write("</tr>");
+		}
+		document.write("</table>");
+	}
+</script>
+</head>
+<body onload="afficher()">
+
+</body>
+</html>

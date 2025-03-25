@@ -1,0 +1,24 @@
+<?php
+ $x=4;
+ $y=1;
+ $z=15;
+if(($x<$y) and ($x<$z)){
+	if($y<$z){
+		 echo "L'ordre est : " . $x . "," . $y . "," . $z;
+	}else{
+		 echo "L'ordre est : " . $x . "," . $z . "," . $y;
+	}
+}if(($y<$x) and ($x<$z)){
+	if($x<$z){
+		 echo "L'ordre est : " . $y . "," . $x . "," . $z;
+	}else{
+		 echo "L'ordre est : " . $y . "," . $z . "," . $x;
+	}
+}if(($z<$y) and ($z<$x)){
+	if($y<$x){
+		 echo "L'ordre est : " . $z . "," . $y . "," . $x;
+	}else{
+		 echo "L'ordre est : " . $z . "," . $x . "," . $y;
+	}
+}
+?>

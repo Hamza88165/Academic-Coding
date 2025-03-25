@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>images/Table</title>
+</head>
+<body>
+<table width="100%" >
+	<tr>
+		<td><img src="lion.png" alt="lion" width="100%"></td>
+		<td><img src="lapin.png" alt="lapin" width="100%"></td>
+		<td><img src="eco.png"  alt="Eco image" width="100%"></td>
+	</tr>
+	<tr align="center">
+		<td><h3>lion</h3></td>
+		<td><h3>lapin</h3></td>
+		<td><h3>Eco image</h3></td>
+	</tr>
+	<tr>
+		<td colspan=3><img src="underwater.png" alt="underwater" width="100%" height="300px"></td>
+	</tr>
+	<tr>
+		<td rowspan=2 width="33.33%"><img src="underwater.png" alt="underwater" width="100%" ></td>
+		<td colspan=2><p>Un paragraphe </p></td>
+	</tr>
+	<tr>
+		<td colspan=2><p>Un paragraphe </p></td>
+	</tr>
+</table>
+</body>
+</html>

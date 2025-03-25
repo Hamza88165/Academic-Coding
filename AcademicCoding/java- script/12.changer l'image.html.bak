@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> Changer image(s)</title>
+</head>
+<script>
+	function image1(){
+		z1.src="7.switch,img/lion.png";
+		setTimeout(image2,1000);
+	}
+	function image2(){
+		z1.src="7.switch,img/lapin.png";
+		setTimeout(image1,1000);
+	}
+	setTimeout(image2,1000)
+</script>
+<body>
+<img src="7.switch,img/lion.png" id="z1" width="200px" height="200px">
+</body>
+</html>

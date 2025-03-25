@@ -1,0 +1,37 @@
+<html>
+<head>
+<script>
+	function Envoyer(){
+		var send=true;
+		for(i=1;i<5;i++){
+			z=document.getElementById('z'+i);
+			o=document.getElementById('o'+i);
+			if(z.value==""){
+				o.style.visibility="visible";
+				send=false;
+			}else o.style.visibility="hidden";
+		}
+		if(send)f1.submit();
+	}
+</script>
+<style>
+	.g1{
+		visibility:hidden;
+		color:red;
+	}
+</style>
+</head>
+<body>
+<form id="f1" action="1.java1.html">
+<label>Reference: </label>
+<input type="text" id="z1" name="ref"><label class="g1" id="o1">* Champs obligatoire</label><br>
+<label>Designation: </label>
+<input type="text" id="z2" name="des"><label class="g1" id="o2">* Champs obligatoire</label><br>
+<label>Prix: </label>
+<input type="text" id="z3" name="px"><label class="g1" id="o3">* Champs obligatoire</label><br>
+<label>Quantité: </label>
+<input type="text" id="z4" name="qt"><label class="g1" id="o4">* Champs obligatoire</label><br>
+<input type="button" value="Envoyer" onclick="Envoyer()">
+</form>
+</body>
+</html>

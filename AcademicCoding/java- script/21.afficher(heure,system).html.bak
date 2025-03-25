@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+	function afficher(){
+		d=new Date();
+		t1.value=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+		setTimeout(afficher,1000);
+	}
+</script>
+<body onload="afficher()">
+<input type="text" id="t1">
+</body>
+</html>
+<!-- new Date() : creat a new object -->
+<!-- getHours: methodes to retrieves current hour -->

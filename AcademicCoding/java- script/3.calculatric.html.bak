@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+	function produit(){
+		z3.value=z1.value*z2.value;
+	}
+	function division(){
+		z3.value=z1.value/z2.value;
+	}
+	function addition(){
+		z3.value=z1.value+z2.value;
+	}
+	function soustraction(){
+		z3.value=z1.value-z2.value;
+	}
+</script>
+</head>
+<body>
+<label>Number1</label>
+<input type="number" id="z1" ><br>
+<label>Number2</label>
+<input type="number" id="z2" ><br>
+<label>resultat</label>
+<input type="number" id="z3" ><br>
+<input type="button" value="produit" onclick="produit()"> 
+<input type="button" value="division" onclick="division()"> 
+<input type="button" value="addition" onclick="addition()"> 
+<input type="button" value="soustraction" onclick="soustraction()"> 
+
+</body>
+</html>

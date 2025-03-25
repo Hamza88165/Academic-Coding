@@ -1,0 +1,9 @@
+<?php
+// somme des suites1->4
+$d=1;$a=4;$s=0;
+while($d<=$a){
+	$s+=$d;
+	$d++;
+}
+echo "La somme est: ".$s;
+?>

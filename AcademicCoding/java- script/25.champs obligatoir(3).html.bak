@@ -1,0 +1,52 @@
+<!-- champs obligatoir pour drop-down list text areaa -->
+<html>
+<head>
+<script>
+	function Envoyer(){
+		var send=true;
+		if(z1.value==""){
+			o1.style.visibility="visible";
+			send=false;
+		}else o1.style.visibility="hidden";
+		if(s1.selectedIndex==0){
+			o2.style.visibility="visible";
+			send=false;
+		}else o2.style.visibility="hidden";
+		if(a1.value==""){
+			o3.style.visibility="visible";
+			send=false;
+		}else o3.style.visibility="hidden";
+		if(!r1.checked && !r2.checked){
+			o4.style.visibility="visible";
+			send=false;
+		}else o4.style.visibility="hidden";
+		if(send) f1.submit();
+	}
+</script>
+<style>
+	.g1{
+		visibility:hidden;
+		color:red;
+	}
+</style>
+</head>
+<body>
+<form id="f1" action="1.java1.html">
+<label>Nom: </label>
+<input type="text" id="z1" name="nom"><label id="o1" class="g1">* Champs obligatoire</label><br>
+<label>Ville: </label>
+<select name="ville" id="s1">
+	<option value="">--Ville--</option>
+	<option value="Fes">Fes</option>
+	<option value="Meknes">Meknes</option>
+	<option value="Rabat">Rabat</option>
+</select><label id="o2" class="g1">* Champs obligatoire</label><br>
+<label>Adress: </label>
+<textarea name="adress" id="a1"></textarea><label id="o3" class="g1">* Champs obligatoire</label><br>
+<label>Genre: <label><br>
+<label><input type="radio" id="r1" name="genre" value="Homme">Homme<label>
+<label><input type="radio" id="r2" name="genre" value="Femme">Femme<label><label id="o4" class="g1">* Champs obligatoire</label><br>
+<input type="button" value="Envoyer" onclick="Envoyer()">
+</form>
+</body>
+</html>

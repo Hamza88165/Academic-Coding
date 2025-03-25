@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>external/css</title>
+<link rel="stylesheet" href="tp4.css">
+</head>
+<body>
+<h2>Chapitre 1</h2>
+<h3>Chapitre 1.1</h3>
+<h3>Chapitre 1.2</h3>
+<h2>Chapitre 2</h2>
+<h3 id="c2"<span>>Chapitre 2.1</h3>
+<h4>Chapitre 2.1.1</h4>
+<h4>2.Listes des liens</h4>
+<ul>
+	<li>Lien 1</li>
+	<li>Lien 2</li>
+	<li>Lien 3</li>
+	<li>Lien 4</li>
+	<li>Lien 5</li>
+	<li>Lien 6</li>
+</ul>
+<h3>3.Paragraph</h3>
+	<p><span>	Match an element </span>that has the specified id.
+		To match a specific id attribute, we always start the selector with a hash symbol (#),
+		to <span>signify</span> that we are looking for an id value. <span>The hash</span> is followed by the id 
+		attribute value we want to match.<span>Remember</span>, we can only use the same id attribute value once,
+		so the id selector will always only match one element in our <span>document</span>.
+	</p>
+</body>
+</html>

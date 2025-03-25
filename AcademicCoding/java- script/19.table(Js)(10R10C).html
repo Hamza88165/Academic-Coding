@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+	function afficher(){
+		document.write("<h1>Titre</h1>");
+		document.write("<table border=2>");
+		for(var i=0;i<10;i++){
+			document.write("<tr>");
+			for(var j=0;j<10;j++){
+				document.write("<td>*</td>");
+			}
+			document.write("</tr>");
+
+		}
+		document.write("</table>");
+	}
+</script>
+</head>
+<body onload="afficher()">
+
+</body>
+</html>

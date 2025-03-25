@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> permuter image(s)</title>
+</head>
+<script>
+	function changer1(){
+		z1.src="7.switch,img/lapin.png";
+		setTimeout(changer2,1000)
+	}
+	function changer2(){
+		z1.src="7.switch,img/lion.png";
+		setTimeout(changer1,1000);
+	}
+	setTimeout(changer1,1000);
+</script>
+<body>
+<img src="7.switch,img/lion.png" id="z1" width="200px" height="200px">
+</body>
+</html>

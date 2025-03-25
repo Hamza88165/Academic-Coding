@@ -1,0 +1,18 @@
+#c2{
+	color:green;
+}
+/* couleurs en hexadicimal 
+	pseudo class*/
+ul li:first-child{
+	color:#3a34eb;
+}
+ul li:nth-child(2){
+	color:#eb5534;
+}
+ul li:last-child{
+	color:#cf34eb;
+}
+span{
+	color:#ff00ff;
+	font-weight:bold;
+}

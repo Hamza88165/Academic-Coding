@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Titre de ma page</title>
+<script>
+	function reload(){
+		location.reload();
+	}
+	function reculer(){
+		history.back();
+	}
+	function avancer(){
+		history.forward();
+	}
+	function fermer(){
+		var confirmation = confirm("Êtes-vous sûr de vouloir fermer cette fenêtre ?");
+		if (confirmation) {
+        window.close();
+      }
+	}
+</script>
+</head>
+<body>
+<label>valeur :</label>
+<input type="text" id="i1" oninput="Maj"><br>
+<input type="button" value="Reculer" onclick="reculer()">
+<input type="button" value="Reload" onclick="reload()">
+<input type="button" value="Avancer" onclick="avancer()">
+<input type="button" value="Fermer" onclick="fermer()">
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> Switch image</title>
+</head>
+<script>
+	function image1(){
+		img.src="lion.png";
+	}
+	function image2(){
+		img.src="lapin.png";
+	}
+</script>
+<body>
+<img src="lion.png" id="img" width="200px" height="200px"><br>
+<input type="button" value="image 1" onclick="image1()">
+<input type="button" value="image 2" onclick="image2()">
+</body>
+</html>

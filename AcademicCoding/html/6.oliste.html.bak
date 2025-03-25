@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>OListe</title>
+</head>
+<body>
+<ol>
+	<li>250de farine </li>
+	<li>6oeufs  </li>
+	<li>1/2l de lait</li>
+	<li>1pincée se sel </li>
+	<li> à soupe d’huile</li>
+	<li>cuillrées à soupe d’huile</li>
+</ol>
+<ol type="i">
+	<li>250de farine </li>
+	<li>6oeufs  </li>
+	<li>1/2l de lait</li>
+	<li>1pincée se sel </li>
+	<li> à soupe d’huile</li>
+	<li>cuillrées à soupe d’huile</li>
+</ol>
+</body>
+</html>

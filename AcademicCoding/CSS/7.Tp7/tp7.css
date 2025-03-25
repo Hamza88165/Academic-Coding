@@ -1,0 +1,16 @@
+body{
+	background-image:url("img/natural disaster.jpg");/* The image used */
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	/* background-repeat:repeat-x; */
+	/* background-repeat:repeat-y; */
+	 /* background-size: cover; */
+	 background-position: 2cm 2cm;
+	                   /* left top */
+}
+body{
+	 /* background-position-x: 2cm; */
+	 /* background-position-y: 2cm; */
+	  /* background-position: bottom 25% center; */
+	  /* background-position: top right; */
+}

@@ -1,0 +1,12 @@
+<!-- <html> -->
+<head>
+<title>50%50%</title>
+<frameset cols="50%,50%">
+	<frame src="gauche.html">
+	<frame src="droite.html">
+</frameset>
+</head>
+<body>
+
+</body>
+</html>

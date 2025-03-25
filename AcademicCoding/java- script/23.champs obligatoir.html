@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+	function envoyer(){
+		if(z1.value==""){
+			o1.style.visibility="visible";
+		}else f1.submit();
+	}
+</script>
+<style>
+	#o1{
+		visibility:hidden;
+		color:red;
+	}
+</style>
+</head>
+<body>
+<form id="f1" action="1.java1.html">
+<label>Reference: </label>
+<input type="text" id="z1" name="ref"><label id="o1">* Champs obligatoire</label><br>
+<input type="button" value="Envoyer" onclick="envoyer()">
+</form>
+</body>
+</html>
+<!-- create html /button type  -->
+<!-- style of champs obligatoire -->
+<!-- javascript function -->

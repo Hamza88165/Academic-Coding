@@ -1,0 +1,37 @@
+<?php
+$Nm=$_GET["nom"];
+$Vll=$_GET["ville"];
+$Gr=$_GET["genre"];
+$Sp="";
+$Lt="";
+$Vg="";
+$Nt="";
+if(isset($_GET["sport"]))$Sp=$_GET["sport"].",";
+if(isset($_GET["lecture"])$Lt=$_GET["lecture"].",";
+if(isset($_GET["voyage"])$Vg=$_GET["voyage"].",";
+if(isset($_GET["natation"]])$Vg=$_GET["natation"].",";
+$Lr=$Sp.$Lt.$Vg.$Nt;
+?>	
+<html>
+<head></head>
+<body>
+	<table>
+		<tr>
+			<td>Nom: </td>
+			<td><?php echo $Nm ?></td>
+		</tr>
+		<tr>
+			<td>Ville: </td>
+			<td><?php echo $Vll ?></td>
+		</tr>
+		<tr>
+			<td>Genre: </td>
+			<td><?php echo $Gr ?></td>
+		</tr>
+		<tr>
+			<td>Loisirs: </td>
+			<td><?php echo $Lr ?></td>
+		</tr>
+	</table>
+</body>
+</html>

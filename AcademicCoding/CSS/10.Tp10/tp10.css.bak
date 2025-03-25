@@ -1,0 +1,37 @@
+.t1{
+	border-style: solid;
+	border-width:5px;
+}
+.t2{
+	/* border-width:5px; */
+	/* border-style: dotted; */
+	/* border-color: red; */
+	border: 5px dotted red;
+}
+.t3{
+	/* border-width:3px; */
+	/* border-style: dashed; */
+	/* border-color: blue; */
+	border: 3px dashed blue;
+}
+/* border style types
+dotted-dashed-solid-double-groove-ridge-inset-outset-no border-hidden-mixed  */
+.t4{
+	border-style: solid;
+	/* border-top-color: red; */
+	/* border-right-color:yellow; */
+	/* border-bottom-color:blue; */
+	/* border-left-color:green; */
+	border-color: red yellow blue green;
+}
+.t5{
+	border-style: solid;
+	border-radius: 10px 20px 5px 30px;
+	/* border-radius: 5px 25px; */
+	
+}
+.t6{
+	border-style: solid;
+	margin: 10px;
+	padding: 20px;
+}

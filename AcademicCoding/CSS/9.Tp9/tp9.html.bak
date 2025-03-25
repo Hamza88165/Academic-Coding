@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>external/CSS</title>
+<link rel="stylesheet" href="tp9.css">
+</head>
+<body>
+<p class="p1">250de farine 
+6oeufs <br>
+1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait1/2l de lait<br>
+1pincée sel 1pincée sel 1pincée sel 1pincée sel 1pincée sel 1pincée sel 1pincée sel 1pincée sel <br>
+1cuillrées à soupe d’huile1cuillrées à soupe d’huile1cuillrées à soupe d’huile1cuillrées à soupe d’huile1cuillrées à soupe d’huile1cuillrées à soupe d’huile1cuillrées à soupe d’huile<br>
+1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre1cuillèrée à café de vanille en poudre</p>
+<p class="p2">250de farine 
+6oeufs <br>
+1/2l de lait<br>
+1pincée sel <br>
+1cuillrées à soupe d’huile<br>
+1cuillèrée à café de vanille en poudre</p>
+</body>
+</html>
